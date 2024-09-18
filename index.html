@@ -72,9 +72,20 @@
               <!-- If we need navigation buttons -->
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
+          </div>
 
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
+          <div class="card">
+            <!-- Primeira linha-->
+            <div class="card__descrição">
+              <!-- Primeira coluna -->
+              <div class="descrição">
+                <h3 class="descrição__titulo">Talvez você se interesse por...</h3>
+                <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google</p>
+              </div>
+              <!-- Segunda coluna -->
+              <img src="Angular.svg" class="descriçâo__imagem">
+            </div>
           </div>
         </section>
 
@@ -83,6 +94,10 @@
           const swiper = new Swiper('.swiper', {
               spaceBetween: 10,
               slidesPerView: 3,
+              pagination: {
+                el: ".swiper-pagination",
+                type: "bullets",
+              },
             });
         </script>
 

@@ -5,7 +5,7 @@
 
 .contato__titulo,
 .contato__texto {
-    background-color: var(--azul-degrade);
+    background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -17,7 +17,8 @@
 }
 
 .contato__texto {
-    font-weight: 500;
+    font-weight: 300;
+    margin: 1em 0;
 }
 
 .contato__email {

@@ -100,4 +100,17 @@
     .container__imagem-transparente {
         display: none;
     }
+
+    .cabeçalho__menu-hamburger {
+        display: none;
+    }
+
+    .opções__botão:checked ~ .lista-menu {
+        display: none;
+        width: auto;
+    }
+
+    .opções__botão {
+        display: none;
+    }
 }

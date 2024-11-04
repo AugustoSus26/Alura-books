@@ -106,7 +106,7 @@
     }
 
     .opções__botão:checked ~ .lista-menu {
-        display: none;
+        display: block;
         width: auto;
     }
 

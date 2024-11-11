@@ -74,8 +74,14 @@
           </ul>
           <div class="container">
             <a href="#"><img src="Favoritos.svg" alt="Meus favoritos" class="container_imagem container__imagem-transparente"></a>
-            <a href="#"><img src="Compras.svg" alt="Carrinho de compras" class="container_imagem"></a>
-            <a href="#"><img src="Usuário.svg" alt="Meu perfil" class="container_imagem"></a>
+            <a href="#" class="container__link">
+              <img src="Compras.svg" alt="Carrinho de compras" class="container_imagem">
+              <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+              <img src="Usuário.svg" alt="Meu perfil" class="container_imagem">
+              <p class="container__texto">Meu Perfil</p>
+            </a>
           </div>
         </header>
         <section class="banner">
@@ -83,9 +89,10 @@
           <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
           <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
-        <section class="carrosel">
-          <h2 class="carrosel__titulo">Novos Lançamentos</h2>
-          <!-- Slider main container -->
+      <section class="carrosel">
+        <h2 class="carrosel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
           <div class="swiper">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -130,7 +137,8 @@
               <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
         <section class="tópicos">
           <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
